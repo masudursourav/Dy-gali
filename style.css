@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pushster&display=swap');
+html{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pushster', cursive;
+}
 body {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pushster', cursive;
 }
 
 .members-count,
@@ -14,29 +20,35 @@ body {
     border: 1px solid #219fda;
     padding: 15px;
     margin-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .messages {
     flex-shrink: 1;
     overflow: auto;
+    font-family: 'Oswald', sans-serif;
 }
 
 .message {
     padding: 5px 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 .message .member {
     display: inline-block;
+    font-family: 'Oswald', sans-serif;
 }
 
 .member {
     padding-right: 10px;
     position: relative;
+    font-family: 'Oswald', sans-serif;
 }
 
 .message-form {
     display: flex;
     flex-shrink: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 .message-form__input {
@@ -44,6 +56,7 @@ body {
     border: 1px solid #dfdfdf;
     padding: 10px 15px;
     font-size: 16px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .message-form__button {
@@ -52,4 +65,5 @@ body {
     font-size: larger;
     padding: 1em 1em;
     background-color: rgba(110, 110, 216, 0.788);
+    font-family: 'Oswald', sans-serif;
 }
